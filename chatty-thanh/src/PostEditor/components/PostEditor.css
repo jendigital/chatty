@@ -1,0 +1,20 @@
+.post-editor {
+  margin: 0.5em 20%;
+ background-color: #fff38e;
+ border: none;
+ border-radius: 10px;
+}
+
+.post-editor-button {
+  float: right;
+  margin-top: 0.5em;
+}
+
+@media(max-width: 700px) {
+.post-editor {
+    margin: 0.5em;
+}
+  .post-body {
+    margin: 0.5em;
+  }
+}

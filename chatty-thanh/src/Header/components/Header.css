@@ -1,0 +1,24 @@
+.title {
+  color: #fff38e;
+  text-align: center;
+  font-family: "Shrikhand-reg";
+  font-size: 48px;
+  margin-bottom: -10px;
+}
+.thanh {
+    color: white;
+    font-family: "Kalam-Light";
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+@font-face {
+ font-family: "Shrikhand-reg";
+ src: url("/Shrikhand-Regular.ttf") format("truetype");  
+}
+
+@font-face {
+ font-family: "Kalam-Light";
+ src: url("/Kalam-Light.ttf") format("truetype");  
+}
