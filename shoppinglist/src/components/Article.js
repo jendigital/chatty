@@ -11,17 +11,14 @@ class Article extends React.Component {
     toggleEditMode = () => {
         this.setState({ isInEditMode: !this.state.isInEditMode});
     }
-
     handleQuantityEdit = (event, article) => {
             article.quantity = event.target.value;
             this.props.editArticle(article);
     }
-
     handleNameEdit = (event, article) => {
         article.name = event.target.value;
         this.props.editArticle(article);
     }
-
     removeArticle = (article) => {
         this.props.deleteArticle(article);
     }
